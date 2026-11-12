@@ -1,0 +1,1 @@
+var e=(e,t)=>Math.abs(e)<1e-15?0:Math.min(1,Math.abs(e)/t.ratedPower),t=(e,t,n)=>`${t(e.ratedVoltage)}, ${n(e.ratedPower)}`,n=`Hidden until you answer`,r=`Shown after the next predictions`,i=`Current flow is paused until you answer.`;export{t as a,e as i,i as n,n as r,r as t};
