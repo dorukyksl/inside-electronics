@@ -1,0 +1,1 @@
+import{t as e}from"./data-DXNxKhyV.js";var t=e[`arduino-uno`];function n(e,n){let r=t.pins.find(e=>e.name===n);if(!r)throw Error(`The Arduino Uno has no pin ${n}`);return{x:e.x+r.at[0],y:e.y+r.at[1]}}function r(e,t){return{at:e,symbol:`arduino-uno`,name:`Arduino Uno`,value:t}}export{r as n,n as t};
