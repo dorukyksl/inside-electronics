@@ -1,0 +1,1 @@
+import{a as e}from"./copper-CL65nRQN.js";var t=1.12,n=1e10,r=5e22,i=8.8,a=e*1e-6,o=7;function s(e){return e>0?n*(e/300)**1.5*Math.exp(-6498.530148177529*(1/e-1/300)):0}function c(e){return r/s(e)}export{n as a,t as i,a as n,c as o,o as r,s,i as t};

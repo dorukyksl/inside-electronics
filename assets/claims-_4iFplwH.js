@@ -1,0 +1,1 @@
+var e=[];function t(t,n,r){if(t)return;let i=`${n}: the text says ${r}, which the solver no longer gives`;e.push(i),console.error(i)}function n(t,n){for(let r of t){let t=`${n}: ${r}`;e.push(t),console.error(t)}}var r=[];function i(e,t,n){r.push({where:e,what:t,holds:n})}export{n,i as r,t};
